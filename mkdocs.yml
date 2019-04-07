@@ -1,6 +1,6 @@
  
 
-site_name: Guia Bolso
+site_name: Elias Bernardo - Requisitos
 site_description: Repositório da disciplina de Requisitos 2019.1
 repo_url: https://github.com/ebmm01/Requisitos-2019.1
 site_dir: site
@@ -18,4 +18,9 @@ extra:
 
 plugins:
   - search
-  - awesome-pages
+
+pages:
+  - Home: 'index.md'
+  - Pré Rastreabilidade: 
+    - Argumentação: 'pre_rastreabilidade/argumentacao.md'
+    - RichPicture: 'pre_rastreabilidade/richpicture.md'
