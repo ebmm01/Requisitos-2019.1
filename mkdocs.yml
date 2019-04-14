@@ -24,3 +24,5 @@ pages:
   - Pré Rastreabilidade: 
     - Argumentação: 'pre_rastreabilidade/argumentacao.md'
     - RichPicture: 'pre_rastreabilidade/richpicture.md'
+  - Elicitação de Requisitos:
+    - Introspecção: 'elicitacao/introspeccao.md'
