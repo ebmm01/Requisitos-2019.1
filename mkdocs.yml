@@ -26,3 +26,6 @@ pages:
     - RichPicture: 'pre_rastreabilidade/richpicture.md'
   - Elicitação de Requisitos:
     - Introspecção: 'elicitacao/introspeccao.md'
+  - Modelagem:
+    - Cenários: 'modelagem/cenarios.md'
+    - Léxicos: 'modelagem/lexicos.md'
