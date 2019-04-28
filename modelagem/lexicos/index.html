@@ -1,0 +1,1044 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="Repositório da disciplina de Requisitos 2019.1">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Léxicos - Elias Bernardo - Requisitos</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.22915126.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#introducao" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Elias Bernardo - Requisitos" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Elias Bernardo - Requisitos
+              </span>
+              <span class="md-header-nav__topic">
+                Léxicos
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+
+  <a href="https://github.com/ebmm01/Requisitos-2019.1/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Elias Bernardo - Requisitos" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Elias Bernardo - Requisitos
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/ebmm01/Requisitos-2019.1/" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#__github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pre_rastreabilidade/argumentacao/" title="Argumentação" class="md-nav__link">
+      Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../pre_rastreabilidade/richpicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação de Requisitos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação de Requisitos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../elicitacao/introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Léxicos
+      </label>
+    
+    <a href="./" title="Léxicos" class="md-nav__link md-nav__link--active">
+      Léxicos
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos" title="Léxicos" class="md-nav__link">
+    Léxicos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#l1-nome-sujo" title="L1 - Nome Sujo" class="md-nav__link">
+    L1 - Nome Sujo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l4-score-do-serasa" title="L4 - Score do Serasa" class="md-nav__link">
+    L4 - Score do Serasa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l5-divida-ativa" title="L5 - Dívida ativa" class="md-nav__link">
+    L5 - Dívida ativa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l27-cartao-de-debito" title="L27 - Cartão de débito" class="md-nav__link">
+    L27 - Cartão de débito
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l28-cartao-de-credito" title="L28 - Cartão de crédito" class="md-nav__link">
+    L28 - Cartão de crédito
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l29-desconto" title="L29 - Desconto" class="md-nav__link">
+    L29 - Desconto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versoes-anteriores" title="Versões anteriores" class="md-nav__link">
+    Versões anteriores
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#l1-nome-sujo_1" title="L1 - Nome Sujo" class="md-nav__link">
+    L1 - Nome Sujo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l4-score-do-serasa_1" title="L4 - Score do Serasa" class="md-nav__link">
+    L4 - Score do Serasa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l5-divida-ativa_1" title="L5 - Dívida ativa" class="md-nav__link">
+    L5 - Dívida ativa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l6-credito-pre-aprovado" title="L6 - Crédito Pré-aprovado" class="md-nav__link">
+    L6 - Crédito Pré-aprovado
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lexicos" title="Léxicos" class="md-nav__link">
+    Léxicos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#l1-nome-sujo" title="L1 - Nome Sujo" class="md-nav__link">
+    L1 - Nome Sujo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l4-score-do-serasa" title="L4 - Score do Serasa" class="md-nav__link">
+    L4 - Score do Serasa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l5-divida-ativa" title="L5 - Dívida ativa" class="md-nav__link">
+    L5 - Dívida ativa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l27-cartao-de-debito" title="L27 - Cartão de débito" class="md-nav__link">
+    L27 - Cartão de débito
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l28-cartao-de-credito" title="L28 - Cartão de crédito" class="md-nav__link">
+    L28 - Cartão de crédito
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l29-desconto" title="L29 - Desconto" class="md-nav__link">
+    L29 - Desconto
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versoes-anteriores" title="Versões anteriores" class="md-nav__link">
+    Versões anteriores
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#l1-nome-sujo_1" title="L1 - Nome Sujo" class="md-nav__link">
+    L1 - Nome Sujo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l4-score-do-serasa_1" title="L4 - Score do Serasa" class="md-nav__link">
+    L4 - Score do Serasa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l5-divida-ativa_1" title="L5 - Dívida ativa" class="md-nav__link">
+    L5 - Dívida ativa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#l6-credito-pre-aprovado" title="L6 - Crédito Pré-aprovado" class="md-nav__link">
+    L6 - Crédito Pré-aprovado
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ebmm01/Requisitos-2019.1/edit/master/docs/modelagem/lexicos.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Léxicos</h1>
+                
+                <h2 id="introducao">Introdução</h2>
+<p>Trata-se de uma técnica que procura descrever os símbolos de uma linguagem. O principal objetivo a ser perseguido pelos Engenheiros de Requisitos é a identificação de palavras ou frases peculiares ao meio social e da aplicação sob estudo.</p>
+<p>Para o levantamento inicial de palavras e termos, o grupo realizou um <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso">Brainstorm</a>. A partir daí, e dos próprios léxicos foram aparecendo outros termos que o grupo julgou interessante serem modelados.</p>
+<p>Obs.: Vale salientar que aqui estão dispostos somente os léxicos feitos individualmente. Dessa forma, caso algum hyperlink redirecione para outra wiki, isso signigica que o Léxico hyperlinkado não foi feito por mim, mas sim por outro membro do Guiabolso.</p>
+<h2 id="lexicos">Léxicos</h2>
+<h3 id="l1-nome-sujo">L1 - Nome Sujo</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L1</strong></th>
+<th><strong>Nome Sujo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.1 (23/04) <br> Anterior: <a href="#l1-nome-sujo_1">1.0</a></td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+<td>Devedor, caloteiro</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Quando uma pessoa possui nome sujo no serasa <br> &gt; O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> &gt; Status da pessoa que não honra com suas dívidas</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; O <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> com o nome sujo não faz empréstimos <br> &gt; O <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> com o nome sujo não consegue contratar alguns serviços <br> &gt; Operadoras de cobrança ligam constantemente para o <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> com o nome sujo</td>
+</tr>
+<tr>
+<td><strong>Rastro</strong></td>
+<td><a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso">Brainstorm BS2</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l4-score-do-serasa">L4 - Score do Serasa</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L4</strong></th>
+<th><strong>Score do Serasa</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.1 (23/04) <br> Anterior: <a href="#l4-score-do-serasa_1">1.0</a></td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+<td>Pontuação</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Pontuação numérica que classifica economicamente uma pessoa <br> &gt; Chance percentual de um indivíduo não pagar uma conta</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Um indivíduo com o score do serasa alto tem o <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l2-cadastro-positivo">cadastro positivo</a> aceito <br> &gt; Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o <a href="#l1-nome-sujo">nome sujo</a> <br> &gt; Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l6-credito-pre-aprovado">crédito pré-aprovado</a></td>
+</tr>
+<tr>
+<td><strong>Rastro</strong></td>
+<td><a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso">Brainstorm BS2</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l5-divida-ativa">L5 - Dívida ativa</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L5</strong></th>
+<th><strong>Dívida Ativa</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.1 (23/04) <br> Anterior: <a href="#l5-divida-ativa_1">1.0</a></td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+<td>Negativado, cadastro devedor</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Inserção do nome de um indivíduo com o status de <a href="#l1-nome-sujo">nome sujo</a> no cadastro de devedores dos serviços de proteção de crédito <br> &gt; Estar com o <a href="#l1-nome-sujo">nome sujo</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Um <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> que está na dívida ativa tem seu <a href="#l4-score-do-serasa">score do serasa</a> reduzido <br> &gt; Um <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> que está na dívida ativa tem uma redução de linhas de crédito</td>
+</tr>
+<tr>
+<td><strong>Rastro</strong></td>
+<td><a href="../../elicitacao-de-requisitos/brainstorm/#brainstorm-2-levantamento-de-palvras-chave-dentro-do-contexto-do-guiabolso">Brainstorm BS2</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l27-cartao-de-debito">L27 - Cartão de débito</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L27</strong></th>
+<th><strong>Cartão de débito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.0 <br> Anterior:--</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+<td>Despesa, À vista</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Modo de pagamento usando cartão; <br> &gt; Pagamento feito à vista usando cartão, geralmente de um banco;</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Ao comprar no débito o indivíduo sabe o valor gasto na hora; <br> &gt; Ao se comprar no débito, o valor da <a href="#l30-transacao-bancaria">transação</a> é descontado imediatamente do dinheiro do indivíduo; <br> &gt; O indivíduo não pode parcelar uma compra feita no débito; <br> Ao comprar no débito o indivíduo passa a ter mais controle dos seus gastos; <br> &gt; Ao comprar no débito o usuário pode ter um histórico de compras, a depender da <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l31-instituicao-financeira">instituição financeira</a> do cartão</td>
+</tr>
+<tr>
+<td><strong>Rastro</strong></td>
+<td>Não possui (elicitado ao se fazer cenários)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l28-cartao-de-credito">L28 - Cartão de crédito</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L28</strong></th>
+<th><strong>Cartão de crédito</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.0 <br> Anterior:--</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+<td>À prazo, crediário</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Modo de pagamento usando cartão; <br> &gt; Pagamento feito usando o cartão, que terá seu valor debitado <em>à posteriori</em>;</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Ao comprar no crédito o indivíduo pode parcelar ou não a compra; <br> &gt; Ao se comprar no crédito, o valor da <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l30-transacao-bancaria">transação</a> não é descontado imediatamente do dinheiro do indivíduo; <br> &gt; O indivíduo pode parcelar uma compra feita no débito; <br> &gt; Ao comprar no crédito o indivíduo pode acabar tendo um descontrole financeiro; <br> &gt; Ao comprar no crédito o indivíduo pode pagar a compra em valores menores, permitindo a compra de um produto mais caro de forma suave</td>
+</tr>
+<tr>
+<td><strong>Rastro</strong></td>
+<td>Não possui (elicitado ao se fazer cenários)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l29-desconto">L29 - Desconto</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L29</strong></th>
+<th><strong>Desconto</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>Atual: 1.0 <br> Anterior:--</td>
+</tr>
+<tr>
+<td><strong>Classificação</strong></td>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+<td>Corte, dedução, pechincha</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Redução no preço de um produto ou serviço;</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; O indivíduo que consegue um desconto paga preços menores em certos produtos; <br> &gt; O desconto em contas permite que o usuário tenha uma maior ;<a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l19-saude-financeira">saúde financeira</a> <br> &gt; Compras com desconto permitem um menor <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l7-comprometimento-de-renda">comprometimento de renda</a> de um indivíduo; <br> &gt; O desconto pode incentivar um indivíduo a gastar mais do que pode pagar, obrigando-o a reccorer à um empréstimo;</td>
+</tr>
+<tr>
+<td><strong>Rastro</strong></td>
+<td>Não possui (elicitado ao se fazer cenários)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="versoes-anteriores">Versões anteriores</h2>
+<h3 id="l1-nome-sujo_1">L1 - Nome Sujo</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L1</strong></th>
+<th><strong>Nome Sujo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>1.0</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Quando uma pessoa possui nome sujo no serasa <br> &gt; O nome da pessoa está no cadastro da dívida ativa de órgãos de cobrança <br> &gt; Status da pessoa que não honra com suas dívidas</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; O <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> com o nome sujo não faz empréstimos <br> &gt; O <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> com o nome sujo não consegue contratar alguns serviços <br> &gt; Operadoras de cobrança ligam constantemente para o <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> com o nome sujo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l4-score-do-serasa_1">L4 - Score do Serasa</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L4</strong></th>
+<th><strong>Score do Serasa</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>1.0</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Pontuação numérica que classifica economicamente uma pessoa <br> &gt; Chance percentual de um indivíduo não pagar uma conta</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Um indivíduo com o score do serasa alto tem o cadastro positivo aceito <br> &gt; Um indivíduo com o score do serasa baixo tem uma chance alta de estar com o nome sujo <br> &gt; Um indivíduo com o score do serasa baixo tem dificuldade em conseguir um crédito pré-aprovado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l5-divida-ativa_1">L5 - Dívida ativa</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L5</strong></th>
+<th><strong>Dívida Ativa</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>1.0</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Inserção do nome de um indivíduo com o status de nome sujo no cadastro de devedores dos serviços de proteção de crédito <br> &gt; Estar com o nome sujo</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Um <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> que está na dívida ativa tem seu score do serasa reduzido <br> &gt; Um <a href="https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario">usuário</a> que está na dívida ativa tem uma redução de linhas de crédito</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l6-credito-pre-aprovado">L6 - Crédito Pré-aprovado</h3>
+<table>
+<thead>
+<tr>
+<th><strong>L6</strong></th>
+<th><strong>Crédito Pré-aprovado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Versão</strong></td>
+<td>1.0</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+<td>&gt; Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> &gt; Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+<td>&gt; Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> &gt; Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e score do serasa</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../cenarios/" title="Cenários" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Cenários
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2019, <a href="https://github.com/ebmm01/Requisitos-2019.1/">Requisitos 2019.1</a>.
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/ebmm01/Requisitos-2019.1" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
