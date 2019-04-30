@@ -100,11 +100,3 @@ Obs.: Vale salientar que aqui estão dispostos somente os léxicos feitos indivi
 | **Versão**| 1.0 |
 | **Noção** | > Inserção do nome de um indivíduo com o status de nome sujo no cadastro de devedores dos serviços de proteção de crédito <br> > Estar com o nome sujo | 
 | **Impacto** | > Um [usuário](https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario) que está na dívida ativa tem seu score do serasa reduzido <br> > Um [usuário](https://fga-disciplinas.github.io/2019.1-Guia-Bolso/modelagem/lexicos/#l13-usuario) que está na dívida ativa tem uma redução de linhas de crédito |
-
-### L6 - Crédito Pré-aprovado
-
-| **L6** | **Crédito Pré-aprovado**  |
-|--|--|
-| **Versão**| 1.0 |
-| **Noção** | > Valor em dinheiro disponibilizado por instituições financeiras para um indivíduo resgatar a qualquer momento <br> > Dinheiro disponibilizado através de uma análise prévia feita por bancos e instituições financeiras | 
-| **Impacto** | > Ao resgatar o crédito pré-aprovado, um indivíduo estará fazendo uma dívida <br> > Ter um crédito pré-aprovado alto significa ter uma boa análise de crédito e score do serasa |
